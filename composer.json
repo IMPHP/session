@@ -1,0 +1,23 @@
+{
+    "name": "imphp/session",
+    "license": "MIT",
+    "description": "Seperate Authentication/Authorization package that contains a session library",
+    "type": "library",
+
+    "authors": [
+        {
+            "name": "Daniel Bergløv",
+            "email": "d.bergloev@mailbox.com"
+        }
+    ],
+
+    "require": {
+        "imphp/base": "~1.1"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "im\\": "src/"
+        }
+    }
+}
