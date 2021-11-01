@@ -18,6 +18,7 @@
     "autoload": {
         "psr-4": {
             "im\\": "src/"
-        }
+        },
+        "files": ["static.php"]
     }
 }
