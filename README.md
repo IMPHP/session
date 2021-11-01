@@ -9,6 +9,18 @@ You can view the [Full Documentation](docs/auth.md) to lean more about what this
 
 ### Installation
 
+__Using .phar library__
+
+```sh
+wget https://github.com/IMPHP/util/releases/download/<version>/imphp-util.phar
+```
+
+```php
+require "imphp-util.phar";
+
+...
+```
+
 __Clone via git__
 
 ```sh
